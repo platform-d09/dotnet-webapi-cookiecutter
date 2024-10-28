@@ -1,4 +1,6 @@
 {
     "author": "District09",
-    "dotnet_solutionName": "D09.WebApi"
+    "dotnet_solutionName": "D09.WebApi",
+    "project_slug": "{{ cookiecutter.dotnet_solutionName }}",
+    "project_name": "{{ cookiecutter.dotnet_solutionName.replace('.', '_') }}"
 }
