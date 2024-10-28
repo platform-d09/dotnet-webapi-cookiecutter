@@ -1,0 +1,6 @@
+﻿services:
+  {{ cookiecutter.dotnet_solutionName }}.api:
+    image: {{ cookiecutter.dotnet_solutionName }}.api
+    build:
+      context: .
+      dockerfile: {{ cookiecutter.dotnet_solutionName }}.Api/Dockerfile

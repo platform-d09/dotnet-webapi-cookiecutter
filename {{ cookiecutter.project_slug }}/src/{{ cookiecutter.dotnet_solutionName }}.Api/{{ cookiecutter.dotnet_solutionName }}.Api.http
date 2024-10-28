@@ -1,0 +1,6 @@
+@{{ cookiecutter.dotnet_solutionName }}.Api_HostAddress = http://localhost:5187
+
+GET {{ "{{" }}{{ cookiecutter.dotnet_solutionName }}.Api_HostAddress{{ "}}" }}/weatherforecast/
+Accept: application/json
+
+###
